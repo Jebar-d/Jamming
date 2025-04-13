@@ -1,0 +1,27 @@
+
+  .dark-mode{
+    display: block;
+    color: var(--clr-slate600);
+    width: 150px;
+    height:  150px;
+    align-items: center;
+    position: center; 
+}
+ 
+  .dark-mode:hover{
+    color: var(--clr-slate900);
+    background-color: var(--clr-slate200);
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .dark-mode:active{
+    color: var(--clr-slate900);
+    background-color: var(--clr-slate300);
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .work__project work__content2{
+    align-items: center;
+  }
